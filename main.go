@@ -7,5 +7,9 @@ func LogInfo(msg string)  {
 }
 
 func LogError(msg string)  {
-	log.Printf("Info - %v", msg)
+	log.Printf("Error - %v", msg)
+}
+
+func LogDebug(msg string)  {
+	log.Printf("Debug - %v", msg)
 }
